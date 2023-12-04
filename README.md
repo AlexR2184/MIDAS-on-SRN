@@ -7,7 +7,7 @@ The data set is for the England Strategic Road Network. It was created using MID
 The methodology for producing the processed data from the raw data is described in the paper "Data-Driven Traffic Assignment Through Density-Based Road-Specific Congestion Function Estimation", IEEE Access (tbc).
 
 ## Contents
-The repository contains two folders. E2 is the full network used for analysising the England Strategic Road Network. This graph representation has 73 nodes and 156 edges. E1 is a simplified version of E2, with a number of junctions and roads omitted. It contains 30 nodes and 70 edges.
+The repository contains two folders. E2 is the full network used for analysising the England Strategic Road Network. This graph representation has 73 nodes and 156 edges. E1 is a simplified version of E2, with a number of junctions and roads omitted. It contains 30 nodes and 70 edges. It has been used for more computationally-demanding analysis.
 
 For both E1 and E2, a node table and edge table are supplied. This can be used to create a network representation of the road system (for instance using Matlab or NetworkX).
 
