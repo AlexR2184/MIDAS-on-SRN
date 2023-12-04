@@ -16,11 +16,13 @@ Time bin flow and speed data are provided for E2. The JSON files contain the the
 Additionaly, per-minute flow (veh/hr), occupancy (%) and speed (km/hr) data are provided for E2. This has been used for the fitting of congestion (a.k.a. Volume-Delay) functions. The JSON files contain the processed per-minute observations for each edge on the network for each minute of the time bin on each selected weekday of analysis.
 
 ## Related publications
-Alexander Roocroft, Giuliano Punzo, Muhamad Azfar Ramli. Link Count Data-driven Static Traffic Assignment Models Through Network Modularity Partitioning. Transportation, Springer. September, 2023. (Available: [here](https://doi.org/10.1007/s11116-023-10416-x))
+Alexander Roocroft, Giuliano Punzo, Muhamad Azfar Ramli. Link Count Data-driven Static Traffic Assignment Models Through Network Modularity Partitioning. Transportation, Springer. September, 2023. (Available: [here](https://doi.org/10.1007/s11116-023-10416-x)).
 
 Alexander Roocroft, Muhamad Azfar Ramli, Giuliano Punzo. Improved Data-Driven Optimal Traffic Assignment Through Density-Based Road-Specific Congestion Function Estimation. IEEE Access. 2023 (under review).
 
 Alexander Roocroft, Giuliano Punzo, Muhamad Azfar Ramli. System Optimal Routing and Distribution of Benefits on National Road Networks. In: Transportation Procedia, 2023. (In Press).
+
+Alexander Roocroft (2022) Data-driven national strategic traffic assignment models for road network congestion management. PhD thesis, University of Sheffield. (Available: [here](https://etheses.whiterose.ac.uk/33289/)).
 
 Alexander Roocroft, Muhamad Azfar Ramli, Giuliano Punzo. Efficient Computation of Optimal Traffic Assignment in Nationwide Highway Networks from Raw Loop Detector Data. In: Transportation Research Board 100th Annual Meeting, Washington D.C., 2021
 
