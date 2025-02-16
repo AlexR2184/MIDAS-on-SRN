@@ -4,7 +4,7 @@ This is a repository containing the processed data used in the project titled, "
 
 The data set is for the England Strategic Road Network. It was created using MIDAS traffic data from the period September 2018 to May 2019. 
 
-The methodology for producing the processed data from the raw data is described in the paper "Data-Driven Traffic Assignment Through Density-Based Road-Specific Congestion Function Estimation", IEEE Access (tbc).
+The methodology for producing the processed data from the raw data is described in the paper "Data-Driven Traffic Assignment Through Density-Based Road-Specific Congestion Function Estimation", IEEE Access (December, 2023).
 
 ## Contents
 The repository contains two folders. E2 is the full network used for analysising the England Strategic Road Network. This graph representation has 73 nodes and 156 edges. E1 is a further simplified version of E2, with a number of junctions and roads omitted. It contains 30 nodes and 70 edges. It has been used for more computationally demanding calculations.
@@ -16,11 +16,11 @@ Time bin flow and speed data are provided for E2. The JSON files contain the the
 Additionaly, per-minute flow (veh/hr), occupancy (%) and speed (km/hr) data are provided for E2. This has been used for the fitting of congestion (a.k.a. Volume-Delay) functions. The JSON files contain the processed per-minute observations for each edge on the network for each minute of the time bin on each selected weekday of analysis.
 
 ## Related publications
+Alexander Roocroft, Giuliano Punzo, Muhamad Azfar Ramli. System Optimal Routing and Distribution of Benefits on National Road Networks. In: Transportation Research Procedia, 2025. (Available: [here](https://doi.org/10.1016/j.trpro.2024.12.203)).
+
+Alexander Roocroft, Muhamad Azfar Ramli, Giuliano Punzo. Data-Driven Traffic Assignment Through Density-Based Road-Specific Congestion Function Estimation. IEEE Access. December, 2023. (Available: [here](https://ieeexplore.ieee.org/document/10373008)).
+
 Alexander Roocroft, Giuliano Punzo, Muhamad Azfar Ramli. Link Count Data-driven Static Traffic Assignment Models Through Network Modularity Partitioning. Transportation, Springer. September, 2023. (Available: [here](https://doi.org/10.1007/s11116-023-10416-x)).
-
-Alexander Roocroft, Muhamad Azfar Ramli, Giuliano Punzo. Improved Data-Driven Optimal Traffic Assignment Through Density-Based Road-Specific Congestion Function Estimation. IEEE Access. 2023 (under review).
-
-Alexander Roocroft, Giuliano Punzo, Muhamad Azfar Ramli. System Optimal Routing and Distribution of Benefits on National Road Networks. In: Transportation Procedia, 2023. (In Press).
 
 Alexander Roocroft (2022) Data-driven national strategic traffic assignment models for road network congestion management. PhD thesis, University of Sheffield. (Available: [here](https://etheses.whiterose.ac.uk/33289/)).
 
@@ -31,7 +31,7 @@ Alexander Roocroft, Muhamad Azfar Ramli, Giuliano Punzo. Efficient Computation o
 This code is available under the MIT License. Copyright (c) 2023 Alex Roocroft
 
 ## Authors
-Alexander Roocroft ([ORCID](https://orcid.org/0000-0002-6551-1800), a.roocroft@tudelft.nl)
+Alexander Roocroft ([ORCID](https://orcid.org/0000-0002-6551-1800), roocroft.research@gmail.com, a.roocroft@tudelft.nl)
 
 Giuliano Punzo (g.punzo@sheffield.ac.uk)
 
